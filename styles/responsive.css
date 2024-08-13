@@ -15,4 +15,17 @@
     .Banner-content h1{
         line-height: 40px;
     }
+    .image-habit{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .movement{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .habit-move{
+        margin: 0 auto;
+        text-align: center;
+    }
 }
