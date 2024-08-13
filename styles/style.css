@@ -85,7 +85,7 @@ body{
     transition: none;
 }
 .btn-primary{
-    padding: 8px 12px;
+    padding: 14px 20px;
     background-color: #E6533C;
     color: white;
     font-size: 15px;
@@ -187,6 +187,30 @@ body{
 }
 .movement img{
     border-radius: 50%;
+}
+/* Run Extra Mile Section Styles */
+.Extra-run{
+    max-width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.Extrarun-content{
+    width: 40%;
+}
+.Extrarun-image{
+    width:40%;
+}
+.Extrarun-image img{
+    width: 100%;
+    border-radius: 20px;
 }
    
 

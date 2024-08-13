@@ -28,4 +28,36 @@
         margin: 0 auto;
         text-align: center;
     }
+    .Extra-run{
+        flex-direction: column;
+        gap: 0px;
+        margin: 0 auto;
+        margin-top:20px;
+    }
+    .Extrarun-content{
+        width:100%;
+    }
+    .Extrarun-content h2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .Extrarun-content p{
+        /* width: 100px;
+        height: 90px; */
+        font-size:8px;
+        margin-left:18px;
+    }
+    .Extrarun-content button{
+        margin-left: 100px;
+        padding: 16px 32px;
+    }
+    .Extrarun-image{
+        width:100%;
+    }
+    .Extrarun-image img{
+        margin-top: 10px;
+        width: 60%;
+    }
+    
+    
 }
