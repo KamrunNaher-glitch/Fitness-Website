@@ -113,6 +113,9 @@
         font-weight: 400;
         margin-left: 15px;
     }
+    .price-plan p{
+        margin-left: 10px;
+    }
 .priceplan-container{
     grid-template-columns: repeat(1,1fr);
 }
@@ -122,6 +125,29 @@
         height: auto;
         margin-bottom: 15px;
 }
+.footer-main{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    gap: 0px;
+}
+.footer-content, .Get-startrd,.social-icon{
+    width: 100%;
+}
+.Get-startrd,.social-icon{
+    margin: 0 auto;
+}
+.footer-line p{
+    font-size: 12px;
+    text-align: center;
+}
+.footer-content{
+    padding: 0px;
+}
+
+
+
 
     
     
