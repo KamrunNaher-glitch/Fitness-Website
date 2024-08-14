@@ -15,6 +15,18 @@
     .Banner-content h1{
         line-height: 40px;
     }
+    .bottom-card1{
+        width: 180px;
+        height: 120px;
+        top:160px;  
+    }
+    .bottom-card2{
+        width: 120px;
+        height: 120px;
+        top:30px;
+        left:200px;
+    }
+    
     .image-habit{
         grid-template-columns: repeat(1,1fr);
         
@@ -29,35 +41,92 @@
         text-align: center;
     }
     .Extra-run{
-        flex-direction: column;
-        gap: 0px;
-        margin: 0 auto;
-        margin-top:20px;
+     margin: 0 auto;
+     width:80%;
+     height: auto;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 0px;
+     
     }
     .Extrarun-content{
-        width:100%;
-    }
-    .Extrarun-content h2{
-        font-size: 20px;
-        margin-left: 30px;
-    }
-    .Extrarun-content p{
-        /* width: 100px;
-        height: 90px; */
-        font-size:8px;
-        margin-left:18px;
-    }
-    .Extrarun-content button{
-        margin-left: 100px;
-        padding: 16px 32px;
+        width: 100%;
     }
     .Extrarun-image{
-        width:100%;
+        width: 100%;
     }
-    .Extrarun-image img{
+    .BMI-main{
+        margin: 0 auto;
+     width:80%;
+     height: auto;
+    }
+    .BMI-container{
+        flex-direction: column;
+    }
+    .BMI-Chart{
+        margin: 0 auto;
+        width:80%;
+        height: auto;
+    }
+    .BMI-Chart h3{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .Height-Weight{
+        margin: 0 auto;
+        width:80%;
+        height: auto;
+    }
+    .BMI-content h1{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .Your-team{
+        margin: 0 auto;
+        width:80%;
+        height: auto;
+    }
+    .Team-images{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .Team-content h1{
+        font-size: 15px;
+        font-weight: 400;
         margin-top: 10px;
-        width: 60%;
     }
+    .team-row1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-row2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .price-container{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .price-plan h3{
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 15px;
+    }
+.priceplan-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.price-card1,.price-card2,.price-card3{
+    margin: 0 auto;
+        width: 80%;
+        height: auto;
+        margin-bottom: 15px;
+}
+
+    
+    
+    
+    
     
     
 }
