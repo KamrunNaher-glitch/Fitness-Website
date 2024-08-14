@@ -12,7 +12,7 @@ body{
 }
 /* Shared CSS Style */
 .heading-primary{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 800;
     color:white;
     margin-bottom: 10px;
@@ -22,6 +22,11 @@ body{
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 14px; 
+}
+.yourteam-heading{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
 }
 .btn-primary{
     padding: 8px 12px;
@@ -93,9 +98,9 @@ body{
     border: none;
     border-radius: 20px;}
 
-.nav-items{
+.nav-item{
     padding: 8px 12px;
-    background-color: #E6533C;
+    /* background-color: #E6533C; */
     color: white;
     font-size: 15px;
     font-weight: 600;
@@ -115,6 +120,10 @@ body{
         margin: 0 auto;
         margin-top: 70px;
     }
+    .Banner-content{
+       
+    }
+
     #highlight{
     font-family: "Dancing Script", cursive;
     font-style: italic;
@@ -130,7 +139,7 @@ body{
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    top: 360px;
+    top: 220px;
     right: 180px;
     }
     .bottom-card2{
@@ -144,8 +153,8 @@ body{
         backdrop-filter: blur(20px);
         background: rgba(48, 48, 48, 0.54);
         position: absolute;
-        left: 220px;
-        top: 180px;
+        left: 250px;
+        top: 60px;
     }
     .circle{
         color: red;
@@ -167,6 +176,7 @@ body{
     font-weight: 400;
 }
 .Trainer-image{
+
     position: relative;
 }
 /* Banner Section Styles End  */
@@ -283,8 +293,159 @@ body{
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.5);
 }
+/* Meet Your team Section Styles */
+.Your-team{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.Team-images{
+    /* gap: 20px; */
+    background-color:#222222;
+    
+}
+.Team-images img{
+    border-radius: 50px;
+}
 
+.Team-content{
+    text-align: center;
+}
+.team-row1{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
 
-
-   
+}
+.team-row1,.team-card1,.team-card2,.team-card3, img{
+    width: 320px;
+    height: 270px;
+    border-radius: 18px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.team-row2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px; 
+    margin-top: 10px;
+}
+.team-card1{
+    position: relative;
+}
+.card-content1{
+    position:absolute;
+    top:200px;
+    left:50px
+}
+.team-card2{
+    position: relative;
+}
+.card-content2{
+    position:absolute;
+    top:200px;
+    left:50px 
+}
+.team-card3{
+    position: relative;
+}
+.card-content3{
+    position:absolute;
+    top:200px;
+    left:50px 
+}
+/* Price Plan Styles  */
+.price-container{
+        
+}
+.price-plan{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px; 
+}
+.priceplan-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.price-card1{
+    width: 300px;
+    height: 300px;
+    background-color: #222222;
+    margin-top: 50px;
+    padding: 20px;
+    /* box-shadow: 10px 10px 10px 10px #449c9d2f; ; */
+}
+.price-card1:hover,.price-card2:hover,.price-card3:hover{
+    box-shadow:10px 10px 10px 10px #E6533C;
+}
+.price-card2{
+    width: 300px;
+    height: 300px;
+    background-color: #222222;
+    margin-top: 50px;
+    padding: 20px;
+}
+.price-card3{
+    width: 300px;
+    height: 300px;
+    background-color: #222222;
+    margin-top: 50px;
+    padding: 20px;
+}
+.price-color{
+    color: #E6533C;
+    margin-bottom: 25px;
+}
+/* Footer Section Styles */
+.Footer-container{
+    background-color: #222222;
+}
+.footer-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 40%;
+    padding: 50px;
+}
+.Get-startrd{
+    width: 30%;
+}
+.social-icon{
+    width: 30%;
+}
+.get-started{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: -10px;
+}
+.get-descriotion1{
+    margin-top: 25px;
+}
+.get-description2{
+    margin-top: 25px;
+}
+.footer-line{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+hr{
+    width: 1050px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+} 
+.footer-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+}
 
